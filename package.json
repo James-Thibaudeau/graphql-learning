@@ -1,0 +1,35 @@
+{
+  "name": "graphql-learning",
+  "version": "1.0.0",
+  "description": "Learning graphQL from Lynda.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js --exec babel-node -e js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/James-Thibaudeau/graphql-learning.git"
+  },
+  "author": "James Thibaudeau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/James-Thibaudeau/graphql-learning/issues"
+  },
+  "homepage": "https://github.com/James-Thibaudeau/graphql-learning#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "casual": "^1.5.19",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.0.2",
+    "graphql-tools": "^4.0.3",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.3.14",
+    "nodemon": "^1.18.7",
+    "sequelize": "^4.41.2",
+    "sqlite3": "^4.0.4"
+  }
+}
